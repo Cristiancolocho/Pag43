@@ -27,6 +27,14 @@ public class Futbolista extends Persona {
         this.demarcacion = demarcacion;
     }
 
+    public void jugarPartido() {
+        System.out.println("Jugando partido");
+    }
+
+    public void entrenar() {
+        System.out.println("Entrenando");
+    }
+
     @Override
     public void Concentrarse() {
         System.out.println("Concentrandose como futbolista");
